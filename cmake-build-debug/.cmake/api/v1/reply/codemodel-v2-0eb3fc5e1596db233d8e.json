@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "ex4::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex4-Debug-8018e66365bc685af132.json",
 					"name" : "ex4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex5-Debug-1d3ab666688b7113fe14.json",
+					"name" : "ex5",
 					"projectIndex" : 0
 				}
 			]
