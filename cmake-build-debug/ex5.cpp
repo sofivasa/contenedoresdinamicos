@@ -17,6 +17,14 @@ int main () {
          std::cout<<cuadrado(num)<<std::endl;
 
 
+         //Puntero inteligente
+         auto puntero=std::make_unique<int>(100);
+         //Imprimir
+         std::cout<<"El valor del puntero es: "<<puntero<<std::endl;
+
+
+
+
 
 
     };
