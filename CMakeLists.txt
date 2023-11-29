@@ -4,4 +4,5 @@ project(contenedoresdinamicos)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(contenedoresdinamicos
-        ex1.cpp)
+        ex1.cpp
+        ex2.cpp)
