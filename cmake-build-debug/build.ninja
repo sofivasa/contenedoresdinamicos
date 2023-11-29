@@ -133,6 +133,37 @@ build ex3: CXX_EXECUTABLE_LINKER__ex3_Debug CMakeFiles/ex3.dir/ex3.cpp.o
   TARGET_FILE = ex3
   TARGET_PDB = ex3.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex4
+
+
+#############################################
+# Order-only phony target for ex4
+
+build cmake_object_order_depends_target_ex4: phony || CMakeFiles/ex4.dir
+
+build CMakeFiles/ex4.dir/ex4.cpp.o: CXX_COMPILER__ex4_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/ex4.cpp || cmake_object_order_depends_target_ex4
+  DEP_FILE = CMakeFiles/ex4.dir/ex4.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex4.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex4
+
+
+#############################################
+# Link the executable ex4
+
+build ex4: CXX_EXECUTABLE_LINKER__ex4_Debug CMakeFiles/ex4.dir/ex4.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = CMakeFiles/ex4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex4
+  TARGET_PDB = ex4.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +198,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug
 
-build all: phony ex1 ex2 ex3
+build all: phony ex1 ex2 ex3 ex4
 
 # =============================================================================
 # Built-in targets

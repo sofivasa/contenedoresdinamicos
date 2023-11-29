@@ -10,7 +10,7 @@ int main (){
           std ::cout<< "Elementos ordenados: " <<std::endl;
       for(int num : numeros){
            std::cout<<num<<std::endl;
-           //Imprimir el numero mayor del vector 
+           //Imprimir el numero mayor del vector
       int numMax= *std::max_element(numeros.begin(),numeros.end());
       std::cout<<"El numero mayor es: "<<numMax<<std::endl;
   }
