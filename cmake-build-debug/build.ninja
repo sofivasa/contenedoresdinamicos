@@ -52,6 +52,7 @@ build cmake_object_order_depends_target_ex1: phony || CMakeFiles/ex1.dir
 build CMakeFiles/ex1.dir/ex1.cpp.o: CXX_COMPILER__ex1_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/ex1.cpp || cmake_object_order_depends_target_ex1
   DEP_FILE = CMakeFiles/ex1.dir/ex1.cpp.o.d
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/anaconda3/include
   OBJECT_DIR = CMakeFiles/ex1.dir
   OBJECT_FILE_DIR = CMakeFiles/ex1.dir
 
@@ -83,6 +84,7 @@ build cmake_object_order_depends_target_ex2: phony || CMakeFiles/ex2.dir
 build CMakeFiles/ex2.dir/ex2.cpp.o: CXX_COMPILER__ex2_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/ex2.cpp || cmake_object_order_depends_target_ex2
   DEP_FILE = CMakeFiles/ex2.dir/ex2.cpp.o.d
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/anaconda3/include
   OBJECT_DIR = CMakeFiles/ex2.dir
   OBJECT_FILE_DIR = CMakeFiles/ex2.dir
 
@@ -114,6 +116,7 @@ build cmake_object_order_depends_target_ex3: phony || CMakeFiles/ex3.dir
 build CMakeFiles/ex3.dir/ex3.cpp.o: CXX_COMPILER__ex3_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/ex3.cpp || cmake_object_order_depends_target_ex3
   DEP_FILE = CMakeFiles/ex3.dir/ex3.cpp.o.d
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/anaconda3/include
   OBJECT_DIR = CMakeFiles/ex3.dir
   OBJECT_FILE_DIR = CMakeFiles/ex3.dir
 
@@ -145,6 +148,7 @@ build cmake_object_order_depends_target_ex4: phony || CMakeFiles/ex4.dir
 build CMakeFiles/ex4.dir/ex4.cpp.o: CXX_COMPILER__ex4_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/ex4.cpp || cmake_object_order_depends_target_ex4
   DEP_FILE = CMakeFiles/ex4.dir/ex4.cpp.o.d
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/anaconda3/include
   OBJECT_DIR = CMakeFiles/ex4.dir
   OBJECT_FILE_DIR = CMakeFiles/ex4.dir
 
@@ -176,6 +180,7 @@ build cmake_object_order_depends_target_ex5: phony || CMakeFiles/ex5.dir
 build CMakeFiles/ex5.dir/ex5.cpp.o: CXX_COMPILER__ex5_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/ex5.cpp || cmake_object_order_depends_target_ex5
   DEP_FILE = CMakeFiles/ex5.dir/ex5.cpp.o.d
   FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/anaconda3/include
   OBJECT_DIR = CMakeFiles/ex5.dir
   OBJECT_FILE_DIR = CMakeFiles/ex5.dir
 
@@ -194,6 +199,38 @@ build ex5: CXX_EXECUTABLE_LINKER__ex5_Debug CMakeFiles/ex5.dir/ex5.cpp.o
   PRE_LINK = :
   TARGET_FILE = ex5
   TARGET_PDB = ex5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex6
+
+
+#############################################
+# Order-only phony target for ex6
+
+build cmake_object_order_depends_target_ex6: phony || CMakeFiles/ex6.dir
+
+build CMakeFiles/ex6.dir/ex6.cpp.o: CXX_COMPILER__ex6_unscanned_Debug /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/ex6.cpp || cmake_object_order_depends_target_ex6
+  DEP_FILE = CMakeFiles/ex6.dir/ex6.cpp.o.d
+  FLAGS = -g -std=gnu++14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  INCLUDES = -I/Users/sofivazsanch/anaconda3/include
+  OBJECT_DIR = CMakeFiles/ex6.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex6
+
+
+#############################################
+# Link the executable ex6
+
+build ex6: CXX_EXECUTABLE_LINKER__ex6_Debug CMakeFiles/ex6.dir/ex6.cpp.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = CMakeFiles/ex6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex6
+  TARGET_PDB = ex6.dbg
 
 
 #############################################
@@ -229,7 +266,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug
 
-build all: phony ex1 ex2 ex3 ex4 ex5
+build all: phony ex1 ex2 ex3 ex4 ex5 ex6
 
 # =============================================================================
 # Built-in targets
@@ -238,14 +275,14 @@ build all: phony ex1 ex2 ex3 ex4 ex5
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/CMakeLists.txt /Users/sofivazsanch/anaconda3/lib/cmake/Boost-1.73.0/BoostConfig.cmake /Users/sofivazsanch/anaconda3/lib/cmake/Boost-1.73.0/BoostConfigVersion.cmake /Users/sofivazsanch/anaconda3/lib/cmake/boost_headers-1.73.0/boost_headers-config-version.cmake /Users/sofivazsanch/anaconda3/lib/cmake/boost_headers-1.73.0/boost_headers-config.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindBoost.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/CMakeLists.txt /Users/sofivazsanch/anaconda3/lib/cmake/Boost-1.73.0/BoostConfig.cmake /Users/sofivazsanch/anaconda3/lib/cmake/Boost-1.73.0/BoostConfigVersion.cmake /Users/sofivazsanch/anaconda3/lib/cmake/boost_headers-1.73.0/boost_headers-config-version.cmake /Users/sofivazsanch/anaconda3/lib/cmake/boost_headers-1.73.0/boost_headers-config.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
