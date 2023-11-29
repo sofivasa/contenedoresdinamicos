@@ -1,3 +1,4 @@
-/Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/contenedoresdinamicos.dir
+/Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/ex1.dir
+/Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/ex2.dir
 /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/sofivazsanch/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/rebuild_cache.dir

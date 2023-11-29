@@ -1,4 +1,5 @@
 # ninja log v5
-0	1663	1701285469347390132	CMakeFiles/contenedoresdinamicos.dir/ex1.cpp.o	23753cde1717b1ed
-1666	1812	1701285469503931953	contenedoresdinamicos	dd1d5e073b0140fe
 3	1666	1701286364229384731	CMakeFiles/contenedoresdinamicos.dir/ex1.cpp.o	23753cde1717b1ed
+3	988	1701286863376115672	CMakeFiles/contenedoresdinamicos.dir/ex2.cpp.o	f92b5fc24d2b857d
+0	800	1701286946518206745	CMakeFiles/ex2.dir/ex2.cpp.o	c3548a0b6b5510cf
+803	923	1701286946643386242	ex2	9ec92a4e7786f311
